@@ -134,4 +134,4 @@ client.on('guildCreate', guild => {
 });
 
 
-client.login('NTMxMzQ0NTczNDY5ODE4ODkx.DxP76g.MR_i32SKYw1pBrF2_w3i3L0rgZM');
+client.login('NTMxMzQ0NTczNDY5ODE4ODkx.DxQAeg.OZqF-ewl7JVpMS3HrpUsIePh5K4');
