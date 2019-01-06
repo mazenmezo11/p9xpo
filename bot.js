@@ -134,4 +134,4 @@ client.on('guildCreate', guild => {
 });
 
 
-client.login(process.env.BOT_TOKEN);
+client.login('NTMxMzQ0NTczNDY5ODE4ODkx.DxP76g.MR_i32SKYw1pBrF2_w3i3L0rgZM');
