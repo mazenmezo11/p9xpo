@@ -29,13 +29,6 @@ message.author.send(`**مدة الرابط : يـوم
 
 
 
-
-
-
-
-
-
-
 client.on('guildMemberAdd', Sal => { //By Salto7#4595
     var embed = new Discord.RichEmbed()
     .setAuthor(Sal.user.username, Sal.user.avatarURL)
@@ -55,11 +48,7 @@ client.on('guildMemberAdd', Sal => { //By Salto7#4595
     });
     
     
-    
-    
-    
-    
-    
+       
     
     
     var prefix = '!';
@@ -91,11 +80,6 @@ client.on('guildMemberAdd', Sal => { //By Salto7#4595
     message.channel.send(id)
 }
 });
-
-
-
-
-
 
 
 
@@ -142,16 +126,12 @@ message.channel.send({
 
 
 
-
-
-
 client.on('guildCreate', guild => {
   var embed = new Discord.RichEmbed()
   .setColor(0x5500ff)
   .setDescription(**شكراً لك لإضافه البوت الى سيرفرك**)
       guild.owner.send(embed)
 });
-
 
 
 client.login(process.env.BOT_TOKEN);
